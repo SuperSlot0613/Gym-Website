@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='login.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <title>STUDENT LOGIN</title>
+    
+</head>
+
+<body>
+    <div class="contact-title">
+        <h1>LOGIN</h1><br>
+        <h2>BE THE FIT ALL TIME</h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="http://127.0.0.1:5000/logindb">
+            <input name="username" type="text" class="form-control" placeholder="USERNAME" required>
+            <br>
+            <!-- <input name="email" type="email" class="form-control" placeholder="YOUR EMAIL" required><br> -->
+            <input name="password" type="password"name="password" class="form-control" placeholder="PASSWORD" required><br>
+            <button class="btn">SUBMIT NOW</button><br>
+    </div><br>
+    <div class="centerdiv">
+        <a href="https://m.facebook.com/Thakur-College-Of-Engineering-and-Technology-TCET-140873615978164" target="blank">
+            <i class="fa  fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com" target="blank">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" target="blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com" target="blank">
+            <i class="fa  fa-youtube"></i>
+        </a>
+    </div>
+</body>
+
+</html>
